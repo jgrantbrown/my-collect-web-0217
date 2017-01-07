@@ -10,7 +10,9 @@ end
 my_collect(students) do |student|
   student.split(" ").first
 end
+end
 
 my_collect(languages) do |language|
       language.uppercase
     end
+end
